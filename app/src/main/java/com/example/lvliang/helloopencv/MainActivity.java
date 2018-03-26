@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         }
         else {
             Log.i(TAG, "OpenCV load failed.");
-            OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_3_2_0, this, mLoaderCallback);
+            OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION, this, mLoaderCallback);
         }
     }
 
